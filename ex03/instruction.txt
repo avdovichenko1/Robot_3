@@ -1,0 +1,3 @@
+ros2 run turtlesim turtlesim_node
+ros2 topic echo /turtle1/pose > pose_speed_x1.yaml
+ros2 bag play turtle_cmd_vel_0.mcap
